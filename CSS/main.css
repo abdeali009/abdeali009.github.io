@@ -19,9 +19,15 @@ body{
 	left: 0;
 	height: 1000px;
 	width: 50%;
-	min-height: 100px;
   	background-color: #eee;
   	border-radius: 5px;
+}
+@media only screen and (max-width:600px){
+	#dv1{
+		margin-top: 20%;
+		width: 96%;
+		height: 1040px;
+	}
 }
 hr{
 	color: grey;
