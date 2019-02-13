@@ -4,7 +4,10 @@ html{
 body{
 	background-image: linear-gradient(to bottom right, #0e00f5 , #009ef5, #0e00f5);
 	background-repeat: no-repeat;
+	background-position: center;
 	background-attachment: fixed;
+	height: 100%;
+	width: 100%;
 }
 #dv1{
 	position: absolute;
