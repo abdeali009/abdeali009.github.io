@@ -1,0 +1,59 @@
+html{
+	/*height: 100%;*/
+}
+body{
+	background-image: linear-gradient(to bottom right, #0e00f5 , #009ef5, #0e00f5);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+#dv1{
+	position: absolute;
+	  margin: auto;
+	  margin-top: 10%;
+ 	top: 0;
+	right: 0;
+	bottom: 0;
+	  left: 0;
+	  height: 1000px;
+	width: 50%;
+	min-height: 100px;
+  	background-color: #eee;
+  	border-radius: 5px;
+}
+hr{
+	color: grey;
+}
+h3{
+	margin-left: 6px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	color: #164249;
+
+}
+.image {
+	overflow: -moz-hidden-unscrollable;
+	overflow: hidden;
+	border: 3px solid #eee;
+	position: absolute;
+	/*left: 50%;*/
+	top: -60px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 170px;
+	height: 170px;
+	/*background-image: url("IMG/profile.jpg");*/
+	/*background: -webkit-linear-gradient(45deg, #3AB1C0, #164249);*/
+	border-radius: 50%;
+}
+#name{
+	font-size: 27px;
+	font-weight: bold;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	color: #164249;
+	text-align: center;
+	margin-top: 130px;
+}
+.personal{
+	text-align: center;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 15px;
+}
